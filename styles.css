@@ -6,11 +6,40 @@ body {
 }
 
 #mainHeading {
-    font-size: 40px;
+    display: block;
+    font-size: 32px;
     color: red;
+    margin: 40px auto;
 }
 
 .funParagraph {
     font-style: italic;
     color: green;
+    font-size: 20px;
+}
+
+h1, h2, .funParagraph {
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    display: block;
+    margin-top: 40px;
+}
+
+img {
+    display: block;
+    padding: auto;
+    margin: auto;
+}
+
+footer {
+    color: gray;
+    display: block;
+    margin-top: 30px;
 }
